@@ -1,0 +1,13 @@
+server:
+  port: 7778
+costumer:
+  datasource:
+    url: jdbc:mysql://localhost:3306/accounts?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
+    password: kodilla_password
+    username: kodilla_user
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  allow-get-accounts: true
