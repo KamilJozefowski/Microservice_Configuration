@@ -1,6 +1,6 @@
 server:
   port: 7777
-spring:
+accounts:
   datasource:
     url: jdbc:mysql://localhost:3306/accounts?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
     password: kodilla_password
