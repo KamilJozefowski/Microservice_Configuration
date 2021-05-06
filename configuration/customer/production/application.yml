@@ -1,6 +1,6 @@
 server:
   port: 7778
-costumer:
+customer:
   datasource:
     url: jdbc:mysql://localhost:3306/accounts?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
     password: kodilla_password
