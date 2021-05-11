@@ -3,8 +3,10 @@ server:
 customer:
   datasource:
     url: jdbc:mysql://localhost:3306/customer?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
-    password: kodilla_password
-    username: kodilla_user
+#    password: kodilla_password
+#    username: kodilla_user
+      password: root
+      username: Kamil791919099
   jpa:
     database: mysql
     show-sql: true
